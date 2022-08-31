@@ -2,7 +2,7 @@ if exists('syntax_on')
     syntax reset
 endif
 
-let g:colors_name = 'omni-one'
+let g:colors_name = 'omni_one'
 
 let palette = {
             \ 'fg':          '#eeffff',
