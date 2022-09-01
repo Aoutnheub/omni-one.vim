@@ -59,7 +59,7 @@ execute 'highlight Whitespace       guifg=' . palette.grey2  . ' guibg=NONE'
 execute 'highlight SpecialKey       guifg=' . palette.grey3  . ' guibg=NONE'
 execute 'highlight Pmenu            guifg=' . palette.fg     . ' guibg=' . palette.grey2
 execute 'highlight PmenuSbar        guifg=NONE                   guibg=' . palette.grey7
-execute 'highlight PmenuSel         guifg=' . palette.grey0  . ' guibg=' . palette.statusline1
+execute 'highlight PmenuSel         guifg=' . palette.grey0  . ' guibg=' . palette.grey1
 execute 'highlight WildMenu         guifg=' . palette.grey0  . ' guibg=' . palette.statusline1
 execute 'highlight PmenuThumb       guifg=NONE                   guibg=' . palette.grey5
 execute 'highlight NormalFloat      guifg=' . palette.fg     . ' guibg=' . palette.grey2
