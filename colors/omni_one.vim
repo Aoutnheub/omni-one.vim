@@ -59,8 +59,8 @@ execute 'highlight Whitespace       guifg=' . palette.grey2  . ' guibg=NONE'
 execute 'highlight SpecialKey       guifg=' . palette.grey3  . ' guibg=NONE'
 execute 'highlight Pmenu            guifg=' . palette.fg     . ' guibg=' . palette.grey2
 execute 'highlight PmenuSbar        guifg=NONE                   guibg=' . palette.grey7
-execute 'highlight PmenuSel         guifg=' . palette.grey0  . ' guibg=' . palette.grey1
-execute 'highlight WildMenu         guifg=' . palette.grey0  . ' guibg=' . palette.statusline1
+execute 'highlight PmenuSel         guifg=' . palette.fg     . ' guibg=' . palette.grey1
+execute 'highlight WildMenu         guifg=' . palette.fg     . ' guibg=' . palette.statusline1
 execute 'highlight PmenuThumb       guifg=NONE                   guibg=' . palette.grey5
 execute 'highlight NormalFloat      guifg=' . palette.fg     . ' guibg=' . palette.grey2
 execute 'highlight Question         guifg=' . palette.yellow . ' guibg=NONE'
@@ -333,8 +333,8 @@ execute 'highlight CocExplorerHelpHint        guifg=' . palette.grey6 . ' guibg=
 execute 'highlight CocRustChainingHint guifg=' . palette.grey6 . ' guibg=NONE'
 
 "" kyazdani42/nvim-tree.lua
-execute 'highlight NvimTreeNormal                    guifg=#111111                guibg=NONE'
-execute 'highlight NvimTreeCursorLine                guifg=' . palette.grey0   . ' guibg=NONE'
+execute 'highlight NvimTreeNormal                    guifg=NONE                   guibg=#111111'
+execute 'highlight NvimTreeCursorLine                guifg=NONE                   guibg=' . palette.grey0
 execute 'highlight NvimTreeSymlink                   guifg=' . palette.aqua   . ' guibg=NONE'
 execute 'highlight NvimTreeFolderName                guifg=' . palette.blue   . ' guibg=NONE'
 execute 'highlight NvimTreeRootFolder                guifg=' . palette.red    . ' guibg=NONE'
