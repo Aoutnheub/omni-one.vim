@@ -57,11 +57,11 @@ execute 'highlight MatchParen       guifg=NONE                   guibg=NONE     
 execute 'highlight NonText          guifg=' . palette.grey2  . ' guibg=NONE'
 execute 'highlight Whitespace       guifg=' . palette.grey2  . ' guibg=NONE'
 execute 'highlight SpecialKey       guifg=' . palette.grey3  . ' guibg=NONE'
-execute 'highlight Pmenu            guifg=' . palette.fg     . ' guibg=' . palette.grey2
-execute 'highlight PmenuSbar        guifg=NONE                   guibg=' . palette.grey7
+execute 'highlight Pmenu            guifg=' . palette.fg     . ' guibg=' . palette.grey0
+execute 'highlight PmenuSbar        guifg=NONE                   guibg=' . palette.grey2
 execute 'highlight PmenuSel         guifg=' . palette.fg     . ' guibg=' . palette.grey1
 execute 'highlight WildMenu         guifg=' . palette.fg     . ' guibg=' . palette.statusline1
-execute 'highlight PmenuThumb       guifg=NONE                   guibg=' . palette.grey5
+execute 'highlight PmenuThumb       guifg=NONE                   guibg=' . palette.grey3
 execute 'highlight NormalFloat      guifg=' . palette.fg     . ' guibg=' . palette.grey2
 execute 'highlight Question         guifg=' . palette.yellow . ' guibg=NONE'
 execute 'highlight SpellBad         guifg=' . palette.red    . ' guibg=NONE                    gui=underline'
@@ -226,10 +226,14 @@ execute 'highlight CocSem_typeAlias        guifg=' . palette.blue   . ' guibg=NO
 execute 'highlight CocSem_typeParameter    guifg=' . palette.blue   . ' guibg=NONE'
 execute 'highlight CocSem_variable         guifg=' . palette.fg     . ' guibg=NONE'
 
-execute 'highlight CocErrorFloat         guifg=' . palette.red    . ' guibg=' . palette.grey2
-execute 'highlight CocWarningFloat       guifg=' . palette.yellow . ' guibg=' . palette.grey2
-execute 'highlight CocInfoFloat          guifg=' . palette.blue   . ' guibg=' . palette.grey2
-execute 'highlight CocHintFloat          guifg=' . palette.aqua   . ' guibg=' . palette.grey2
+execute 'highlight CocFloatThumb           guifg=' . palette.fg    . ' guibg=' . palette.grey3
+execute 'highlight CocFloatSbar           guifg=' . palette.fg    . ' guibg=' . palette.grey2
+execute 'highlight CocFloating           guifg=' . palette.fg     . ' guibg=' . palette.grey0
+execute 'highlight CocMenuSel            guifg=' . palette.fg     . ' guibg=' . palette.grey1
+execute 'highlight CocErrorFloat         guifg=' . palette.red    . ' guibg=' . palette.grey0
+execute 'highlight CocWarningFloat       guifg=' . palette.yellow . ' guibg=' . palette.grey0
+execute 'highlight CocInfoFloat          guifg=' . palette.blue   . ' guibg=' . palette.grey0
+execute 'highlight CocHintFloat          guifg=' . palette.aqua   . ' guibg=' . palette.grey0
 execute 'highlight CocErrorHighlight     guifg=NONE                   guibg=NONE              gui=undercurl guisp=' . palette.red
 execute 'highlight CocWarningHighlight   guifg=NONE                   guibg=NONE              gui=undercurl guisp=' . palette.yellow
 execute 'highlight CocInfoHighlight      guifg=NONE                   guibg=NONE              gui=undercurl guisp=' . palette.blue
