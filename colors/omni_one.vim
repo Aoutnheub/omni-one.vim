@@ -75,7 +75,7 @@ execute 'highlight StatusLineTermNC guifg=' . palette.bg     . ' guibg=' . palet
 execute 'highlight TabLine          guifg=' . palette.grey7  . ' guibg=' . palette.grey3
 execute 'highlight TabLineFill      guifg=' . palette.grey6  . ' guibg=' . palette.grey1
 execute 'highlight TabLineSel       guifg=' . palette.grey0  . ' guibg=' . palette.statusline1
-execute 'highlight VertSplit        guifg=' . palette.bg     . ' guibg=' . palette.grey6
+execute 'highlight VertSplit        guifg=' . palette.grey3     . ' guibg=' . palette.bg
 execute 'highlight Visual           guifg=NONE                   guibg=' . palette.grey2
 execute 'highlight VisualNOS        guifg=NONE                   guibg=' . palette.grey2
 execute 'highlight QuickFixLine     guifg=' . palette.purple . ' guibg=NONE'
