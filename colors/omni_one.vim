@@ -334,8 +334,7 @@ execute 'highlight CocExplorerHelpHint        guifg=' . palette.grey6 . ' guibg=
 execute 'highlight CocRustChainingHint guifg=' . palette.grey6 . ' guibg=NONE'
 
 "" kyazdani42/nvim-tree.lua
-execute 'highlight NvimTreeNormal                    guifg=NONE                   guibg=#111111'
-execute 'highlight NvimTreeCursorLine                guifg=NONE                   guibg=' . palette.grey0
+execute 'highlight NvimTreeCursorLine                guifg=NONE                   guibg=#111111'
 execute 'highlight NvimTreeSymlink                   guifg=' . palette.aqua   . ' guibg=NONE'
 execute 'highlight NvimTreeFolderName                guifg=' . palette.blue   . ' guibg=NONE'
 execute 'highlight NvimTreeRootFolder                guifg=' . palette.red    . ' guibg=NONE'
