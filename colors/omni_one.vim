@@ -22,9 +22,6 @@ let palette = {
             \ 'grey5':       '#757575',
             \ 'grey6':       '#838383',
             \ 'grey7':       '#979797',
-            \ 'statusline1': '#56b6c2',
-            \ 'statusline2': '#98c379',
-            \ 'statusline3': '#e06c75'
             \ }
 
 "" Basic
@@ -60,7 +57,7 @@ execute 'highlight SpecialKey       guifg=' . palette.grey3  . ' guibg=NONE'
 execute 'highlight Pmenu            guifg=' . palette.fg     . ' guibg=' . palette.grey0
 execute 'highlight PmenuSbar        guifg=NONE                   guibg=' . palette.grey2
 execute 'highlight PmenuSel         guifg=' . palette.fg     . ' guibg=' . palette.grey1
-execute 'highlight WildMenu         guifg=' . palette.fg     . ' guibg=' . palette.statusline1
+execute 'highlight WildMenu         guifg=' . palette.fg     . ' guibg=' . palette.blue
 execute 'highlight PmenuThumb       guifg=NONE                   guibg=' . palette.grey3
 execute 'highlight NormalFloat      guifg=' . palette.fg     . ' guibg=' . palette.grey2
 execute 'highlight Question         guifg=' . palette.yellow . ' guibg=NONE'
@@ -74,8 +71,8 @@ execute 'highlight StatusLineNC     guifg=' . palette.bg     . ' guibg=' . palet
 execute 'highlight StatusLineTermNC guifg=' . palette.bg     . ' guibg=' . palette.grey6
 execute 'highlight TabLine          guifg=' . palette.grey7  . ' guibg=' . palette.grey3
 execute 'highlight TabLineFill      guifg=' . palette.grey6  . ' guibg=' . palette.grey1
-execute 'highlight TabLineSel       guifg=' . palette.grey0  . ' guibg=' . palette.statusline1
-execute 'highlight VertSplit        guifg=' . palette.grey3     . ' guibg=' . palette.bg
+execute 'highlight TabLineSel       guifg=' . palette.grey0  . ' guibg=' . palette.blue
+execute 'highlight VertSplit        guifg=' . palette.grey3  . ' guibg=' . palette.bg
 execute 'highlight Visual           guifg=NONE                   guibg=' . palette.grey2
 execute 'highlight VisualNOS        guifg=NONE                   guibg=' . palette.grey2
 execute 'highlight QuickFixLine     guifg=' . palette.purple . ' guibg=NONE'
@@ -103,7 +100,7 @@ execute 'highlight StorageClass   guifg=' . palette.orange . ' guibg=NONE'
 execute 'highlight Tag            guifg=' . palette.orange . ' guibg=NONE'
 execute 'highlight Label          guifg=' . palette.orange . ' guibg=NONE'
 execute 'highlight Structure      guifg=' . palette.orange . ' guibg=NONE'
-execute 'highlight Operator       guifg=' . palette.aqua . ' guibg=NONE'
+execute 'highlight Operator       guifg=' . palette.red    . ' guibg=NONE'
 execute 'highlight Title          guifg=' . palette.orange . ' guibg=NONE'
 execute 'highlight Special        guifg=' . palette.yellow . ' guibg=NONE'
 execute 'highlight SpecialChar    guifg=' . palette.yellow . ' guibg=NONE'
